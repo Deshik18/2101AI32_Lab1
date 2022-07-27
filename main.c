@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float multiply(float x, float y){
-    return x*y;
+float subNumbers(float x, float y){
+    return x-y;
 }
 
 int main()
 {
     float x,y;
-    printf("Enter two numbers for multiplication : ");
+    printf("Enter two numbers for subtraction : ");
     scanf("%f",&x);
     scanf("%f",&y);
 
-    printf("The difference of two numbers is %f",multiply(x,y));
+    printf("The difference of two numbers is %f",subNumbers(x,y));
     return 0;
 }
