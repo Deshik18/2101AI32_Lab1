@@ -1,18 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
-float addNumbers(float x, float y){
-    return x+y;
+float multiply(float x, float y){
+    return x*y;
 }
 
 int main()
 {
     float x,y;
-    printf("Enter two numbers :\n");
+    printf("Enter two numbers for multiplication : ");
     scanf("%f",&x);
     scanf("%f",&y);
-    printf("Sum of the given numbers: %f",addNumbers(x,y));
 
+    printf("The difference of two numbers is %f",multiply(x,y));
     return 0;
 }
